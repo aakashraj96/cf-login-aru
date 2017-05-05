@@ -1,0 +1,19 @@
+{
+  "name":               "cf-node-hello",
+  "main":               "./server",
+  "description":        "CloudFoundry Hello World server in node",
+  "author":             "pmuellr",
+  "version":            "0.1.0",
+  "homepage":           "https://github.com/aakashraj96/cf-login-aru.git",
+  "repository":         {"type": "git", "url": "git://github.com/aakashraj96/cf-login-aru.git" },
+  "dependencies":
+    {
+      "cfenv":          "1.0.x",
+      "express" : "4.15.2",
+		"body-parser" : "1.17.1",
+		"cors" : "2.8.3",
+		"express-generator" : "4.15.0",
+		"morgan" : "1.8.1",
+		"mysql" : "2.13.0"
+    }
+  }
